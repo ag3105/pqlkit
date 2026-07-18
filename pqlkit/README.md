@@ -20,7 +20,7 @@ pip install pqlkit
 Or from source:
 
 ```bash
-git clone https://github.com/<you>/pqlkit && cd pqlkit
+git clone https://github.com/ag3105/pqlkit.git && cd pqlkit
 pip install -e .
 ```
 

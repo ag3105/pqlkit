@@ -28,7 +28,7 @@ jobs:
           pip install pytest
 
       - name: Run tests
-        run: python -m pytest -q
+        run: python -m pytest tests -q
 
       - name: Smoke test the CLI
         run: pqlkit --explain 'homeAddress.countryISO = "CA" and person.birthYear = 1985'

@@ -21,3 +21,6 @@ pqlkit = "pqlkit.cli:main"
 
 [tool.setuptools.packages.find]
 include = ["pqlkit*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
